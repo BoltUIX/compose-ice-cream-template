@@ -13,13 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TravelApp"
+        android:theme="@style/Theme.IceCream"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TravelApp.NoActionBar">
+            android:theme="@style/Theme.IceCream.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

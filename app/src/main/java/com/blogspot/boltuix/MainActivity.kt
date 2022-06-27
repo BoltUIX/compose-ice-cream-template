@@ -11,11 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
-import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.blogspot.boltuix.ui.theme.TravelAppTheme
+import com.blogspot.boltuix.ui.theme.IceCreamAppTheme
 import com.google.accompanist.insets.ProvideWindowInsets
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +26,7 @@ class MainActivity : ComponentActivity() {
         WindowCompat.setDecorFitsSystemWindows(window,false)
 
         setContent {
-            TravelAppTheme {
+            IceCreamAppTheme {
 
                 val navController = rememberNavController()
 
@@ -82,7 +81,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    TravelAppTheme {
+    IceCreamAppTheme {
         Greeting("Android")
     }
 }
